@@ -11,6 +11,7 @@ body{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    padding-top: 10%;
 }
 h1{
     font-size: 50px;
@@ -24,7 +25,9 @@ h1{
 }
 
 section{
-    height: 500px;
+    height: 1052px;
+    width: 1470px;
+    
 }
 #link{
     color: white;
@@ -37,16 +40,20 @@ section{
     width: 38%;
 }
 #topbanner{
-    background-repeat: no-repeat;
+    
     background-image: url(images/header-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
 }
 .top-word{
     padding-left: 100px;
-    padding-top: 100px;
+    padding-top: 15%;
 }
 .halfwidth{
-    width: 40%;
-    float:left;
+    width: 38%;
+    float: left;
     margin: 5%;
     
 }
@@ -60,4 +67,68 @@ section{
     background-image: linear-gradient(rgb(209, 78, 161), mediumvioletred);
     padding: 10px 20px;
 
+}
+#biography{
+    background-image: url(images/biography-bg.png);
+    background-size: 100%;
+    
+    height: 1052px;
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+    
+}
+
+.halfwidth img{
+    width: 80%;
+    padding-left: 50px;
+}
+#mlw{
+    text-align:center;
+    padding-top: 100px;
+}
+.my-lw img{
+    width: 25%;
+    float: left;
+    padding-left: 95px ;
+    padding-top:  80px;
+    
+}
+#my-latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#foot{
+    text-align: center;
+    padding-top: 100px;
+}
+#bruce{
+    text-align: center;
+}
+#ceo{
+    text-align: center;
+}
+#Ipsum{
+    text-align: center;
+}
+.email{
+    text-align: center;
+}
+#two{
+    width: 500px;
+    background-image: linear-gradient(rgb(214, 82, 166), rgb(226, 98, 179));
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 100px;
+
+}
+#footer{
+    background-image: url(images/footer-bg.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#fooot{
+    text-align: center;
+    color: rgb(94, 90, 90);
 }
